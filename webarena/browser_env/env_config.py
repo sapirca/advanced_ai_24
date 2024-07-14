@@ -1,12 +1,12 @@
 # websites domain
 import os
 
-REDDIT = os.environ.get("REDDIT", "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:9999")
-SHOPPING = os.environ.get("SHOPPING", "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:7770")
-SHOPPING_ADMIN = os.environ.get("SHOPPING_ADMIN", "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:7780/admin")
-GITLAB = os.environ.get("GITLAB", "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:8023")
-WIKIPEDIA = os.environ.get("WIKIPEDIA", "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:8888/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing")
-MAP = "http://ec2-3-133-40-56.us-east-2.compute.amazonaws.com:3000"
+REDDIT = os.environ.get("REDDIT", "http://localhost:9999")
+SHOPPING = os.environ.get("SHOPPING", "http://localhost:7770")
+SHOPPING_ADMIN = os.environ.get("SHOPPING_ADMIN", "http://localhost:7780/admin")
+GITLAB = os.environ.get("GITLAB", "http://localhost:8023")
+WIKIPEDIA = os.environ.get("WIKIPEDIA", "http://localhost:8888/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing")
+MAP = "http://localhost:3000"
 HOMEPAGE = os.environ.get("HOMEPAGE", "PASS")
 
 assert (
